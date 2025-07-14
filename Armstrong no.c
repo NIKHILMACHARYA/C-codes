@@ -22,5 +22,4 @@ int main()
                     printf("%d is not an armstrong number",num);
           }
           return 0;
-          
 }

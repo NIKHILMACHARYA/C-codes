@@ -6,20 +6,22 @@ int main()
           scanf("%d",&n);
           printf("Enter %d elements:\n",n);
           for(i=0;i<n;i++){
-                    scanf("%d",&a[i]);
+                   scanf("%d",&a[i]);
           }
+          
           printf("Enter the search element:");
           scanf("%d",&x);
           for(i=0;i<n;i++){
-                    if(x==a[i]){
-                              count++;
-                    }
+               if(x==a[i]){
+                    count++;
+               }
           }
          if(count==0){
                    printf("%d is not found",x);
          }
          else{
-                   printf("%d is found and occarance=%d",x,count);
+                   printf("%d is found and occarance = %d",x,count);
          }
          return 0;
 }
+

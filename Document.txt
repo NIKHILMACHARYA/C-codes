@@ -1,0 +1,18 @@
+def sum_value(array):
+    positive_value=0
+    negaitive_value=0
+    for num in array:
+      if num>0:
+         positive_value+=num
+      elif num<0:
+         negative-value+=num
+      return positive_value,negative_value
+
+n=int(input("Enter the size of the array:"))
+array=[]
+for i in range(n):
+     num=int(input("Enter the no:"))
+     array.append(num)
+positive_value,negative_value=sum_value(array)
+print("sum of positive numbers:",positive_value)
+print("sum of negative numbers:",negative_value)
